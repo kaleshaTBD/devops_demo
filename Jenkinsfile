@@ -20,7 +20,8 @@ node{
                echo running
                   "${tomcatBin}\\shutdown.bat"
                   sleep(time:10,unit:"SECONDS") 
-               )
+      )
+      kalesha
 '''
    }*/
    stage('Deploy to Tomcat'){
